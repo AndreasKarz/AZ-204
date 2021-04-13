@@ -8,7 +8,7 @@ If you have additional helpfull resources found, please contribute.
 ## Links
 - [Azure Portal](https://portal.azure.com/)
 - [Pluralsight](https://app.pluralsight.com/paths/certificate/developing-solutions-for-microsoft-azure-az-204)
-- [Microsoft Learn](https://docs.microsoft.com/en-us/learn/certifications/exams/az-204){:target="_blank"}
+- <a href="https://docs.microsoft.com/en-us/learn/certifications/exams/az-204" target="_blank">Microsoft Learn</a>
 
 ## Preparations
 - [AZ-204 Developing Solutions for Microsoft Azure Certification Exam Study Guide](https://www.thomasmaurer.ch/2020/03/az-204-study-guide-developing-solutions-for-microsoft-azure/)
