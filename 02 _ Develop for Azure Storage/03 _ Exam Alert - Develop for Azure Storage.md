@@ -1,22 +1,17 @@
 # Exam Alert: Develop for Azure Storage
 
-## Preparations
-...
-
-## Technical Terms
-...
 
 ## Pluralsight Modules
-...
+[Exam Alert: Develop for Azure Storage](https://app.pluralsight.com/library/courses/exam-alert-develop-azure-storage/table-of-contents)
+
 
 ## Deep Dive
-...
+- [IT-Exams](https://www.itexams.com/exam/AZ-204?)
 
-## Microsoft Learning modules
-...
 
 ## Questions
 ...
+
 
 ## Comments
 ...
