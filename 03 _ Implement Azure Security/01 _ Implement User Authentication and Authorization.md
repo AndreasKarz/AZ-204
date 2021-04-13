@@ -12,7 +12,7 @@
 ## Deep Dive
 ...
 
-## Microsoft Learning paths
+## Microsoft Learning modules
 ...
 
 ## Questions
