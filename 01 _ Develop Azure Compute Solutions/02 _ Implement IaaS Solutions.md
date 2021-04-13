@@ -1,20 +1,12 @@
 # Implement IaaS Solutions
 
-
-
-
-
 ## Preparations
-
 - [Common Azure CLI commands for managing Azure resources](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/cli-manage)
 - [Common PowerShell commands for creating and managing Azure Virtual Machines](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/ps-common-ref)
 - [Azure CLI 2.0 Cheatsheet](https://github.com/ferhaty/azure-cli-cheatsheet)
 - [Azure CLI - PowerShell Cheatsheet](http://thedevopspage.com/azurecli-powershell-cheatsheet)
 
-
-
 ## Technical Terms
-
 | Term      | Description                       | Infos  |
 |---|---|---|
 | **TSV**	    | **T**ab **S**eparated **V**alue	| [Azure CLI Output Formats](https://docs.microsoft.com/en-us/cli/azure/format-output-azure-cli) |
@@ -37,40 +29,25 @@
 | **E** (SKU)	| **E**nterprise plans (production)	|  |
 | **I** (SKU)	| **I**solated plans (production)	|  |
 
-
-
 ## Pluralsight Modules
-
 - [Provisioning and Configuring Azure Virtual Machines](https://app.pluralsight.com/course-player?clipId=1b353c69-1c2b-412e-a803-43250cdcd74b)
 - [Creating and Running Containers in Azure](https://app.pluralsight.com/course-player?clipId=6885ddd9-8161-4e85-9193-5ef8700926ea)
-
-
 
 ## Deep Dive
 - [Infrastructure as a Service IaaS on Azure](https://www.youtube.com/watch?v=7PdJ6oT6cBk)
 - [Azure IAAS Architecture](https://www.youtube.com/watch?v=GUpIakLNy_s)
 - [Azure Interview Questions and Answers](https://www.youtube.com/watch?v=_Pyityj08vU)
 
-
-
 ## Microsoft Learning paths
 - [Manage resources in Azure](https://docs.microsoft.com/en-us/learn/paths/manage-resources-in-azure/)
 - [Deploy a website with Azure virtual machines](https://docs.microsoft.com/en-us/learn/paths/deploy-a-website-with-azure-virtual-machines/)
 
-
-
 ## Questions
 #### What is the difference between horizontal and vertical scaling?
-
 ...
-
-
 
 #### What is the difference between ACR and ACI?
-
 ...
-
-
 
 ## Comments
 ...
