@@ -2,13 +2,14 @@
 Learn ressources for the course AZ-204 ( Developing Solutions for Microsoft Azure )
 
 ## Conclusion
-This guide is based on the Pluralsight Course, the official Microsoft Ressources and the Study Guide from Thomas Maurer. It gives you a full set of preparations for the AZ-204 exam.
+This guide is based on the [Pluralsight](https://www.pluralsight.com/pricing/skills) Course, the official Microsoft Ressources and the Study Guide from Thomas Maurer. It gives you a full set of preparations for the AZ-204 exam.
 If you have additional helpfull resources found, please contribute.
 
 ## Links
 - [Azure Portal](https://portal.azure.com/)
 - [Pluralsight](https://app.pluralsight.com/paths/certificate/developing-solutions-for-microsoft-azure-az-204)
 - [Microsoft Learn](https://docs.microsoft.com/en-us/learn/certifications/exams/az-204)
+- [IT-Exams](https://www.itexams.com/exam/AZ-204?)
 
 ## Preparations
 - [AZ-204 Developing Solutions for Microsoft Azure Certification Exam Study Guide](https://www.thomasmaurer.ch/2020/03/az-204-study-guide-developing-solutions-for-microsoft-azure/)
@@ -24,10 +25,11 @@ If you have additional helpfull resources found, please contribute.
 ### Tools
 #### Apps
 Install all the following Tools before you start with study. You will need it again and again.
-- [Pluralsight Offline Player](https://www.pluralsight.com/product/downloads)
-- [Visual Studio Code](https://code.visualstudio.com/download)
-- [Azure Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/)
+- [Install Azure CLI on Windows](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
 - [AZcopy](https://www.thomasmaurer.ch/2019/05/how-to-install-azcopy-for-azure-storage/)
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [Pluralsight Offline Player](https://www.pluralsight.com/product/downloads)
+- [Azure Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/)
 - [Visual Studio](https://visualstudio.microsoft.com/de/vs/community/)
 - [Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio)
 - [Service Bus Explorer](https://github.com/paolosalvatori/ServiceBusExplorer)
