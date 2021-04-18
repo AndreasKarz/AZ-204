@@ -1,4 +1,4 @@
-# Develop Solutions with CosmosDB Storage
+# Develop Solutions with Cosmos DB Storage
 
 
 
@@ -34,7 +34,10 @@
 
 ## Deep Dive
 - [Data Modeling and Partitioning Best Practice in Partitioned Repository Pattern with Cosmos DB](https://medium.com/swlh/partition-key-design-best-practice-in-partitioned-repository-pattern-with-cosmos-db-ef9318007fc1) 
+- [Best practices for Azure Cosmos DB: Data modeling Partitioning and RUs](https://www.youtube.com/watch?v=bQBeTeYUrR8) 
+- [Modeling data and best practices for the Azure Cosmos DB SQL API](https://azure.microsoft.com/en-gb/resources/videos/ignite-2018-modeling-data-and-best-practices-for-the-azure-cosmos-db-sql-api/)
 - [Azure Cosmos DB documentation](https://docs.microsoft.com/en-us/azure/cosmos-db/) 
+- [Frequently asked questions about different APIs in Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/faq)
 
 
 
@@ -47,39 +50,43 @@
 ## Questions
 #### Which API for what? 
 
-...
+- Use Core (SQL) to store a product catalog
+- Use the Gremlin (graph) API as a recommendation engine
+- Use MongoDB to import historical order data
+- Use Cassandra for web analytics
+- Use the Azure Table API to store IoT data
+
+Read & learn [Choose the appropriate API for Azure Cosmos DB](https://docs.microsoft.com/en-us/learn/modules/choose-api-for-cosmos-db/)
 
 
 
 #### Why CosmoDB instead of MongoDB or SQL directly?
 
-...
+Global distribution, scalable performance and higher availability.
 
 
 
 #### What is the minimum RUs per gigabyte of data?
 
-...
+10 RU/s per GB of storage. 
 
 
 
-#### What is the minimum throughput for autoscaling? 10% of the maximum.
+#### What is the minimum throughput for autoscaling? 
 
-...
+10% of the maximum.
 
 
 
-#### What has to be considered for the Constendy Level "Strong" and "Bounded Staleness"? double RUs.
+#### What has to be considered for the Consistency Level "Strong" and "Bounded Staleness"? 
 
-...
+Two times more RUs . The strong and bounded staleness consistency levels consume approximately two times more RUs while performing read operations when compared to that of other relaxed consistency levels.
 
 
 
 #### What is the default consistency level?
 
-...
+Session consistency. One of the consistency levels in Azure Cosmos DB is Session consistency. This is the default level applied to Cosmos accounts by default. When working with Session consistency, the client will use a session token internally with each read/query request to ensure that the set consistency level is maintained.
 
+[Manage consistency levels in Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-manage-consistency?tabs=portal%2Cdotnetv2%2Capi-async)
 
-
-## Comments
-...

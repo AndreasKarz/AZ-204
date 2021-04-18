@@ -14,10 +14,3 @@
 
 
 
-## Questions
-...
-
-
-
-## Comments
-...

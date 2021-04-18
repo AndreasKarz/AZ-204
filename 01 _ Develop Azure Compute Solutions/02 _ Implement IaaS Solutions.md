@@ -1,12 +1,18 @@
 # Implement IaaS Solutions
 
+
+
 ## Preparations
+
 - [Common Azure CLI commands for managing Azure resources](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/cli-manage)
 - [Common PowerShell commands for creating and managing Azure Virtual Machines](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/ps-common-ref)
 - [Azure CLI 2.0 Cheatsheet](https://github.com/ferhaty/azure-cli-cheatsheet)
 - [Azure CLI - PowerShell Cheatsheet](http://thedevopspage.com/azurecli-powershell-cheatsheet)
 
+
+
 ## Technical Terms
+
 | Term      | Description                       | Infos  |
 |---|---|---|
 | **TSV**	    | **T**ab **S**eparated **V**alue	| [Azure CLI Output Formats](https://docs.microsoft.com/en-us/cli/azure/format-output-azure-cli) |
@@ -29,25 +35,47 @@
 | **E** (SKU)	| **E**nterprise plans (production)	|  |
 | **I** (SKU)	| **I**solated plans (production)	|  |
 
+
+
 ## Pluralsight Modules
+
 - [Provisioning and Configuring Azure Virtual Machines](https://app.pluralsight.com/course-player?clipId=1b353c69-1c2b-412e-a803-43250cdcd74b)
 - [Creating and Running Containers in Azure](https://app.pluralsight.com/course-player?clipId=6885ddd9-8161-4e85-9193-5ef8700926ea)
 
+
+
 ## Deep Dive
+
 - [Infrastructure as a Service IaaS on Azure](https://www.youtube.com/watch?v=7PdJ6oT6cBk)
 - [Azure IAAS Architecture](https://www.youtube.com/watch?v=GUpIakLNy_s)
 - [Azure Interview Questions and Answers](https://www.youtube.com/watch?v=_Pyityj08vU)
+- [Azure Container Instances Tutorial | Serverless containers in cloud](https://www.youtube.com/watch?v=jAWLQFi4USk)
+- [What is a Container Registry and Azure Container Service](https://www.youtube.com/watch?v=kBw8ODZfCQ8)
+
+
 
 ## Microsoft Learning paths
+
 - [Manage resources in Azure](https://docs.microsoft.com/en-us/learn/paths/manage-resources-in-azure/)
 - [Deploy a website with Azure virtual machines](https://docs.microsoft.com/en-us/learn/paths/deploy-a-website-with-azure-virtual-machines/)
 
+
+
 ## Questions
+
 #### What is the difference between horizontal and vertical scaling?
-...
+Autoscale only scales horizontally, which is an increase ("out") or decrease ("in") in the number of VM instances. **Horizontal** is more flexible in a cloud situation as it allows you to run potentially thousands of VMs to handle load.
+
+In contrast, **vertical scaling** is different. It keeps the same number of VMs, but makes the VMs more ("up") or less ("down") powerful. Power is measured in memory, CPU speed, disk space, etc. Vertical scaling has more limitations. It's dependent on the availability of larger hardware, which quickly hits an upper limit and can vary by region. Vertical scaling also usually requires a VM to stop and restart.
+
+[Overview of autoscale in Microsoft Azure](https://docs.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-overview#horizontal-vs-vertical-scaling)
+
+
 
 #### What is the difference between ACR and ACI?
-...
+Azure Container Registry is a managed, private Docker registry service.
+[Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-intro)
 
-## Comments
-...
+Azure Container Instances is a solution for any scenario that can operate in isolated containers, without orchestration. Run event-driven applications, quickly deploy from your container development pipelines, and run data processing and build jobs.
+[Azure Container Instances](https://docs.microsoft.com/en-us/azure/container-instances/)
+
