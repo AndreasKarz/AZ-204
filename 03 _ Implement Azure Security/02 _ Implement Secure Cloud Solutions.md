@@ -36,6 +36,8 @@
 
 - [Managed Identity Support Overview](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/services-support-managed-identities)
 
+- [AzureFunBytes Episode 39 - Microsoft Identity with @ChristosMatskas!](https://www.youtube.com/watch?v=QEguFqkerLs)
+
 - https://docs.microsoft.com/en-us/azure/search/search-howto-managed-identities-data-sources
   https://docs.microsoft.com/en-us/azure/search/search-howto-managed-identities-sql
   https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview
