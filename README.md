@@ -13,6 +13,7 @@ If you have additional helpfull resources found, please contribute.
 
 ## Preparations
 - [AZ-204 Developing Solutions for Microsoft Azure Certification Exam Study Guide](https://www.thomasmaurer.ch/2020/03/az-204-study-guide-developing-solutions-for-microsoft-azure/)
+- [5 Cost-Saving Tips for Azure](https://www.youtube.com/watch?v=wMeoLA05uwI)
 
 ### Cheat Sheets & Best Practices
 
